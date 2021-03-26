@@ -1,0 +1,35 @@
+{
+    "code": 0,
+    "data":[
+        {"admin":{"username": "admin","token": "admin123456789","menu":[
+               {"title":"表单页面","url":"forms","id": "1","path":"/home/forms","icon":"el-icon-menu","dropdown":"0"},
+               {"title":"表格页面","url":"tables","id": "2","path":"/home/tables","icon":"el-icon-menu","dropdown":"0"},
+               {"title":"加载动画","id": "3","icon":"el-icon-location","dropdown":"1","menuChild":[
+                {"title":"按钮加载","url":"btnLoading","id": "3-1","path":"/home/btnLoading","icon":"el-icon-menu","dropdown":"0"},
+                {"title":"全局加载","url":"allLoading","id": "3-2","path":"/home/allLoading","icon":"el-icon-menu","dropdown":"0"}
+               ]},
+               {"title":"重复页","url":"repeatPage","id": "4","path":"/home/repeatPage","icon":"el-icon-menu","dropdown":"0"},
+               {"title":"仅管理员可见","url":"jurisdiction","id": "5","path":"/home/jurisdiction","icon":"el-icon-menu","dropdown":"0"},
+               {"title":"功能权限","url":"funAuthority","id": "6","path":"/home/funAuthority","icon":"el-icon-menu","dropdown":"0","authorityList":["view","edit"]},
+               {"title":"查询页面","url":"querypage","id": "7","path":"/home/querypage","icon":"el-icon-menu","dropdown":"0"},
+               {"title":"数据源模板","url":"dataConfiguration","id": "8","path":"/home/dataConfiguration","icon":"el-icon-menu","dropdown":"0"}
+               ]}
+        },
+        {"staff":{"username": "staff","token": "staff123456789","menu":[
+            {"title":"表单页面","url":"forms","id": "1","path":"/home/forms","icon":"el-icon-menu","dropdown":"0"},
+            {"title":"表格页面","url":"tables","id": "2","path":"/home/tables","icon":"el-icon-menu","dropdown":"0"},
+            {"title":"加载动画","id": "3","icon":"el-icon-location","dropdown":"1","menuChild":[
+             {"title":"按钮加载","url":"btnLoading","id": "3-1","path":"/home/btnLoading","icon":"el-icon-menu","dropdown":"0"},
+             {"title":"全局加载","url":"allLoading","id": "3-2","path":"/home/allLoading","icon":"el-icon-menu","dropdown":"0"}
+            ]},
+            {"title":"重复页","url":"repeatPage","id": "4","path":"/home/repeatPage","icon":"el-icon-menu","dropdown":"0"},
+            {"title":"功能权限","url":"funAuthority","id": "6","path":"/home/funAuthority","icon":"el-icon-menu","dropdown":"0","authorityList":["view","add"]},
+            {"title":"查询页面","url":"querypage","id": "7","path":"/home/querypage","icon":"el-icon-menu","dropdown":"0"},
+            {"title":"数据源模板","url":"dataConfiguration","id": "8","path":"/home/dataConfiguration","icon":"el-icon-menu","dropdown":"0"}
+            ]}
+        }
+    ]
+}
+
+
+   
