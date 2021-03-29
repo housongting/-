@@ -15,6 +15,7 @@ import repeatPageParams from '../views/repeatPageParams/repeatPageParams.vue'
 import homepage from '../views/homepage/homepage.vue'
 import querypage from '../views/querypage/querypage.vue'
 import dataConfiguration from '../views/dataConfiguration/dataConfiguration.vue'
+import templateManage from '../views/templateManage/templateManage.vue'
 
 const tablesRule = {
   path: 'tables',
@@ -72,6 +73,11 @@ const dataConfigurationRule = {
   name: 'dataConfiguration',
   component: dataConfiguration,
 }
+const templateManageRule = {
+  path: 'templateManage',
+  name: 'templateManage',
+  component: templateManage,
+}
 
 const ruleMapping = {
   "tables": tablesRule,
@@ -82,12 +88,11 @@ const ruleMapping = {
   "jurisdiction": jurisdictionRule,
   "funAuthority": funAuthorityRule,
   "querypage": querypageRule,
-  "dataConfiguration": dataConfigurationRule
+  "dataConfiguration": dataConfigurationRule,
+  "templateManage": templateManageRule,
 }
 
 Vue.use(VueRouter)
-
-
 
 // 解决ElementUI导航栏中的vue-router重复点菜单报错问题
 const originalPush = VueRouter.prototype.push
@@ -135,7 +140,7 @@ const router=new VueRouter({
       children: [
         homepageRule,
         repeatPageParamsRule, //重复页
-        dataConfigurationRule
+        templateManageRule
       ]
     },
     {

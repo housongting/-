@@ -430,14 +430,14 @@ ul li {
 }
 
 .form_box .input_box {
-  width: calc(100% / 3);
+  width: 32%;
   display: inline-block;
   margin-bottom: 9px;
 }
 
-@media all and (max-width: 1200px) {
+@media(max-width:1000px) {
   .form_box .input_box {
-    width: calc(100% / 2);
+    width: 50%;
   }
 }
 
@@ -520,4 +520,99 @@ ul li {
   margin-left: -10px;
   cursor: pointer;
   transition: all 0.5s;
+}
+
+.tag-box {
+  height: 30px;
+}
+
+.tag-box .tag {
+  width: 75px;
+  height: 31px;
+  border-radius: 5px;
+  border: 1px solid #e3eaef;
+  color: #113678;
+  font-size: 12px;
+  line-height: 30px;
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.tag-box .export {
+  width: 120px;
+}
+
+.tag-box .tag img {
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+  margin-left: 10px;
+  margin-right: 7px;
+}
+
+.tag-box>span {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+.content {
+  position: relative;
+}
+
+/* table分页通用样式 */
+
+.page_box {
+  width: calc(100% - 30px);
+  bottom: 0px;
+  height: 35px;
+  background: #f0f0f0;
+}
+
+.page_box>span {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  /*line-height: normal\0;*/
+  font-size: 12px;
+  padding: 0px 15px;
+  border-right: 1px solid #9d9d9d;
+}
+
+.page_box>span:nth-child(3) {
+  border-right: 0px;
+}
+
+.page_box>span span {
+  font-size: 12px;
+}
+
+.page_box>span img {
+  height: 16px;
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+
+.page_box>span select {
+  height: 25px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.page_box>span input {
+  height: 25px;
+  width: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+.page_box>span h3 {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: normal;
+  cursor: pointer;
+  margin-top: 1px;
 }
