@@ -50,6 +50,10 @@ ul li {
   justify-content: space-between !important;
 }
 
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
 .justify-content-around {
   justify-content: space-around !important;
 }

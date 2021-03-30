@@ -1,8 +1,7 @@
 <template>
   <div class="home">
     <el-container>
-      <el-header class="d-flex justify-content-between align-items-center">
-        <img src="static/imgs/scLogo.png" alt="">
+      <el-header class="d-flex align-items-center justify-content-end">
         <div class="d-flex align-items-center">
           <span class="welcom-admin">欢迎你，{{username}}！</span>
           <el-dropdown size="medium" placement="bottom">
